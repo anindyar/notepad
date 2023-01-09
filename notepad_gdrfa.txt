@@ -1,0 +1,2 @@
+curl -XPUT 'localhost:9200/_settings' \
+    -d '{"index.routing.allocation.disable_allocation": false}'
